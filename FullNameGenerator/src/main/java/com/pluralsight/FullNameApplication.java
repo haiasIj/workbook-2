@@ -14,7 +14,7 @@ public class FullNameApplication {
         String middleInitial = String.valueOf(scanner.next());
         System.out.print("Enter Your Last Name:");
         String lastName = String.valueOf(scanner.next());
-        System.out.print("Enter suffix (Optional):");
+        System.out.print("Enter suffix (Optional): ");
         String suffix = String.valueOf(scanner.next());
 
         String fullName = (firstName + middleInitial + lastName +  suffix);
