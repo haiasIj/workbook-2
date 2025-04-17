@@ -21,10 +21,13 @@ public class App {
        if (teamOneScore > teamTwoScore) {
            System.out.print("The Winners Are The" + " ");
            System.out.println(teamOne);
-       } else {
+       } else if  {
            System.out.print("The Winners Are The" + " ");
            System.out.println(teamTwo);
+       } else {
+           System.out.print("The Game is a Draw");
        }
+
 
 
 
